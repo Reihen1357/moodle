@@ -1,0 +1,14 @@
+root = true
+
+[*]
+indent_style = tab
+tab_width = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+max_line_length = 80
+end_of_line = unset
+charset = utf-8
+
+[{*.md,*.json}]
+insert_final_newline = false
+trim_trailing_whitespace = false
