@@ -39,6 +39,11 @@ const router = createRouter({
 			name: "edit-answer",
 			component: () => import("@/views/EditAnswer.vue"),
 		},
+		{
+			path: "/load-file",
+			name: "load-file",
+			component: () => import("@/views/__LoadFile.vue"),
+		},
 	],
 });
 
